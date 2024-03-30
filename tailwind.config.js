@@ -64,12 +64,11 @@ export default {
       animation: {
         mover: 'moveright 0.3s ease-in forwards',
         movel: 'moveleft 0.3s ease-in forwards',
-        text: 'text 5s ease infinite',
-        hbtn: 'transition ease-in-out delay-150 translate-y-1 scale-110 duration-300'
+        text: 'text 5s ease infinite'
       }
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("tailwindcss-magic")],
 
   daisyui: {
     themes: false, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
