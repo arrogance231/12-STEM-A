@@ -22,6 +22,8 @@ import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import Maskgroup from './Maskgroup.png'
 import FoundationDay from './FoundationDay.jpg'
+
+
 export {
     bigShoe1,
     bigShoe2,
