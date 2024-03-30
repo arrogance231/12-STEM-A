@@ -59,11 +59,13 @@ export default {
           '0% ': {transform: 'translateX(20px)'},
           '100%': {transform: 'translateX(0px) '},
         } 
+
       },
       animation: {
         mover: 'moveright 0.3s ease-in forwards',
         movel: 'moveleft 0.3s ease-in forwards',
-        text: 'text 5s ease infinite'
+        text: 'text 5s ease infinite',
+        hbtn: 'transition ease-in-out delay-150 translate-y-1 scale-110 duration-300'
       }
     },
   },
