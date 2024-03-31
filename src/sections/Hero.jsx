@@ -11,7 +11,7 @@ const Hero = () => {
     <div>
       <section id='home' className='w-full flex xl:flex-row flex-col justify-start min-h-screen gap-10 max-container'>
         <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 padding-x'>
-          <p className='text-xl font-montserrat text-coral-red hover:animate-mover mt-16'>Our Memorial Center</p>
+          <p className='text-xl font-montserrat text-coral-red hover:animate-mover mt-16'>Made By Arjhine A. Ty</p>
           <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'><span className=' xl:whitespace-nowrap z-0 pr-10'>The power of</span>
           <br />
           <span className='text-violet-600 inline-block mt-3'>S</span>
