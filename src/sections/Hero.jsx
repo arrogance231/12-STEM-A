@@ -12,14 +12,14 @@ const Hero = () => {
       <section id='home' className='w-full flex xl:flex-row flex-col justify-start min-h-screen gap-10 max-container'>
         <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 padding-x'>
           <p className='text-xl font-montserrat text-coral-red hover:animate-mover mt-16'>Made By Arjhine A. Ty</p>
-          <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'><span className=' xl:whitespace-nowrap z-0 pr-10'>The power of</span>
+          <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'><span className=' xl:whitespace-nowrap z-0 pr-10 text-white'>The power of</span>
           <br />
-          <span className='text-violet-600 inline-block mt-3'>S</span>
-          <span className= ' text-blue-300 inline-block mt-3'>T</span>
-          <span className=' text-blue-950 inline-block'>E</span>
-          <span className='text-slate-gray inline-block mt-3'>M</span> students
+        
+          <span className=' bg-gradient-to-r from-violet-600 to-sexy-violet bg-clip-text text-transparent animate-text'>STEM</span>
+          <br />
+          <span className='text-white'>students</span>  
           </h1>
-          <p className='font-montserrat bg-gradient-to-r from-sky-300 to-yellow-200 bg-clip-text text-transparent font-bold text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>What make's one a Quezon City Academy STEM A Student?</p>
+          <p className='font-montserrat bg-gradient-to-r from-sky-300 to-yellow-200 animate-text bg-clip-text text-transparent font-bold text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>What make's one a Quezon City Academy STEM A Student?</p>
           <div>
           <Button label="Check us out!" iconURL={arrowRight}/>
           </div>
@@ -32,7 +32,7 @@ const Hero = () => {
             ))}
           </div>
         </div >
-        <div className='animate-bounce  mt-[300px] mb-[250px] m-20 bg-gradient-to-r from-cyan-200 to-yellow-200'>
+        <div className='mt-[300px] mb-[250px] m-20 bg-gradient-to-r from-secondary to-accent rounded-3xl magic-puffIn'>
         <div className='relative flex-1 flex justify-enter items-center ml-16 mr-16 m-20'>
           <img src={FoundationDay} alt="" width={700} height={700} className='object-contain relative z-10'/>
           </div>

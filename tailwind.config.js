@@ -16,6 +16,7 @@ export default {
       '4xl': ['48px', '58px'],
       '8xl': ['96px', '106px']
     },
+
     extend: {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
@@ -26,7 +27,10 @@ export default {
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        "white-400": "rgba(255, 255, 255, 0.80)",
+        "sexy-violet": "#140426",
+        "secondary": "#8e31a3",
+        "accent": "#7617a6"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
@@ -68,7 +72,7 @@ export default {
       }
     },
   },
-  plugins: [require("daisyui"), require("tailwindcss-magic")],
+  plugins: [require("daisyui"), require("tailwindcss-magic"), require("tailwindcss-gradient")],
 
   daisyui: {
     themes: false, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]

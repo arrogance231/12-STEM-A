@@ -11,7 +11,7 @@ import {
 } from "./sections";
 
 const App = () => {
-  return( <main className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%npm">
+  return( <main className= " bg-gradient-to-r from-sexy-violet to-accent animate-text">
     <Nav/>
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero/>

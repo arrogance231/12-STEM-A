@@ -37,7 +37,14 @@ export const classmatesRow6 = [
 ]
 
 export const classmatesRow2 = [
-    {name: '', picture: '', motto: ''}
+    {name: 'Frinz Andrei P. Isidro ', picture: '', motto: "There's always an endless opportunity in life. Whenever a door closes, another one opens"},
+    {name: 'Paula E. Espenida ', picture: '', motto: "Slow down, but don't stop."},
+    {name: 'Arjhine A. Ty ', picture: '', motto: "Life may be a gamble but it is not a game of luck. If you want to win, work hard."},
+    {name: 'Virgilio Alrei T. Andrada ', picture: '', motto: "If you are not being challenged, you are not growing."},
+    {name: 'Ernest P. Angoluan ', picture: '', motto: "Everything happens for a reason; we can only choose whether to let it build us or break us."},
+    {name: 'Jann Xavier M. Limtengco ', picture: '', motto: "Don’t stop when you’re tired. Stop when you’re done."},
+    {name: 'Alfonso Mikhail R. Garvida ', picture: '', motto: "The hardest choices require the strongest wills"},
+    {name: 'Nazarene Jane T. Romualdo  ', picture: '', motto: "Believe in yourself, because you have the ability to make a difference in people’s lives."},
 
 
 

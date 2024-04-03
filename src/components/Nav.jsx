@@ -7,10 +7,10 @@ import { Maskgroup } from '../assets/images'
 const Nav = () => {
   return (
     <div>
-        <header className='padding-x py-8 absolute z-10 w-full bg-gradient-to-r from-cyan-800 to-red-500'>
+        <header className='padding-x py-8 absolute z-10 w-full bg-sexy-violet border-b '>
             <nav className='flex justify-between items-center max-container relative'>
                 <a href="./classmates.html">
-                    <img src={Maskgroup} alt='Logo' className='w-130 h-29' width={125}></img>
+                    <img src={Maskgroup} alt='Logo' className='w-130 h-29 animate-pulse active:magic-puffIn' width={125}></img>
                 </a>
                 <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden font-bold relative'>
                     {navLinks.map((item) => (
